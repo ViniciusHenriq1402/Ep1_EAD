@@ -16,7 +16,7 @@ public class main {
         System.out.println("Inicio programa - Lista Ligada");
         
         
-        File folder = new File("C:\\Users\\Vini\\Desktop\\entradas");
+        File folder = new File(args[0]);
         processa listFiles = new processa();
         listFiles.carrega(folder);
         System.out.println("-------------------------------------------------");
