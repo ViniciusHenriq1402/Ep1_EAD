@@ -19,6 +19,6 @@ public class main {
         File folder = new File(args[0]);
         processa listFiles = new processa();
         listFiles.carrega(folder);
-        System.out.println("-------------------------------------------------");
+        System.out.println("Log criado com sucesso!");
     }
 }
